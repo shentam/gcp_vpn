@@ -56,9 +56,14 @@
 使用root用户登录，运行以下命令：
 
 sudo su
+
 wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+
 chmod +x shadowsocks.sh
-./shadowsocks.sh 2>&1 | tee shadowsocks.log复制代码
+
+./shadowsocks.sh 2>&1 | tee shadowsocks.log
+
+复制代码
 四条命令依次输入ssh执行
 
 
